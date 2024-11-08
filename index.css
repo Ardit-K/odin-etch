@@ -1,8 +1,16 @@
-.box{
+.row{
     flex: 1;
     display: flex;
-    height: 20px;
-    width: 20px;
+    box-sizing: border-box;
+    height: 25%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.box{
+    flex: 1;
+    height: 100%;
+    width: 25%;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -13,6 +21,7 @@
     flex: 1;
     box-sizing: border-box;
     border: black solid 1px;
+    flex-flow: column;
     height: 1000px;
     width: 1000px;
 }
